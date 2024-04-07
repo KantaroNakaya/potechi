@@ -403,8 +403,6 @@ h2 {
   transition: all 0.3s;
   font-size: 32px;
 }
-
-/* ホバー時 */
 .btn:hover {
   box-shadow: none;
   transform: translateY(5px);

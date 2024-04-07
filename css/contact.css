@@ -184,10 +184,16 @@ h3 span {
 }
 .totop {
   background: red;
+  box-shadow: 0 5px 0 rgba(255, 99, 99, 0.5);
   color: #fff;
+  transition: all 0.3s;
+}
+.totop:hover {
+  box-shadow: none;
+  transform: translateY(5px);
 }
 .Form-Btn {
-  background: green;
+  background-color: #3fa646;
   color: #fff;
   cursor: not-allowed;
 }
