@@ -1,24 +1,3 @@
-body,
-html {
-  width: 100%;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  background: repeating-linear-gradient(
-    to bottom right,
-    rgba(242, 73, 166, 0.3) 0px 30px,
-    rgba(163, 96, 191, 0.5) 30px 60px
-  );
-  background: -webkit-repeating-linear-gradient(
-    top left,
-    rgba(242, 73, 166, 0.3) 0px 30px,
-    rgba(163, 96, 191, 0.5) 30px 60px
-  );
-  background: -moz-repeating-linear-gradient(
-    to top left,
-    rgba(242, 73, 166, 0.3) 0px 30px,
-    rgba(163, 96, 191, 0.5) 30px 60px
-  );
-}
-
 /*========= ローディング画面のためのCSS ===============*/
 #splash {
   position: fixed;
@@ -209,93 +188,6 @@ body.appear #container {
   border: 1px solid #fff;
 }
 
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-
-/* スクロールしたら指定された要素がふわっと動く　*/
-
-.fadeUpTrigger {
-  opacity: 0;
-}
-
-.fadeUp {
-  animation-name: fadeUpAnime;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  opacity: 0;
-}
-@keyframes fadeUpAnime {
-  from {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-
-/* 背景色の設定　*/
-
-.header {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(242, 96, 82, 0.3);
-  display: flex;
-}
-.main {
-  width: 100%;
-  background-color: rgba(242, 159, 5, 0.3);
-  display: block;
-  padding: 1%;
-}
-.footer {
-  width: 100%;
-  background-color: rgba(163, 96, 191, 0.3);
-  display: block;
-  padding: 1%;
-}
-
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
-
-.demo-note {
-  text-align: center;
-  margin-bottom: 32px;
-  font-family: "Noto Sans JP", sans-serif;
-}
-.demo-note .demo-note-text {
-  font-size: 16px;
-  line-height: 18px;
-  color: red;
-  text-shadow: #000 1px 1px;
-}
-
-/* 見出しの設定 */
-.title {
-  width: 50%;
-  margin: auto 0;
-}
-h1 {
-  width: 100%;
-  font-size: 10vw;
-  text-align: center;
-  color: #f29f05;
-  text-shadow: 3px 3px 1px #3fa646;
-}
-h2 {
-  font-size: 6vw;
-  margin: 3% auto;
-  color: #f249a6;
-  text-shadow: 3px 3px 1px #fff;
-  text-align: center;
-}
-
 /*ぽてちの紹介*/
 .profile {
   width: 100%;
@@ -319,17 +211,6 @@ h2 {
   text-align: center;
 }
 
-/* 画像に関するcss */
-.image {
-  width: 50%;
-  margin: auto;
-  padding: 5%;
-}
-.image img {
-  width: 100%;
-  border-radius: 50%;
-  box-shadow: 0px 1px 8px #fff;
-}
 .sns-box {
   width: 50%;
   margin: 0 auto;
@@ -426,40 +307,6 @@ h2 {
 }
 
 @media screen and (max-width: 1080px) {
-  .header {
-    display: block;
-    margin: auto 0;
-  }
-  .title {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h1 {
-    width: 100%;
-    font-size: 96px;
-    text-align: center;
-    color: #f29f05;
-    text-shadow: 3px 3px 1px #3fa646;
-    margin: auto 0;
-  }
-  /* 画像に関するcss */
-  .header .image {
-    width: 50%;
-    min-width: 280px;
-    margin: auto;
-    padding: 5%;
-  }
-  .image img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0px 1px 8px #fff;
-  }
-  h2 {
-    font-size: 72px;
-  }
   .food h2 {
     font-size: 48px;
   }
@@ -475,41 +322,6 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    display: block;
-    margin: auto 0;
-  }
-
-  .title {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h1 {
-    width: 100%;
-    font-size: 72px;
-    text-align: center;
-    color: #f29f05;
-    text-shadow: 3px 3px 1px #3fa646;
-    margin: auto 0;
-  }
-  /* 画像に関するcss */
-  .header .image {
-    width: 50%;
-    min-width: 280px;
-    margin: auto;
-    padding: 5%;
-  }
-  .image img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0px 1px 8px #fff;
-  }
-  h2 {
-    font-size: 56px;
-  }
   .food h2 {
     font-size: 36px;
   }
@@ -528,42 +340,6 @@ h2 {
 }
 
 @media screen and (max-width: 480px) {
-  .header .image {
-    width: 50%;
-    min-width: 180px;
-    margin: auto;
-    padding: 0%;
-  }
-  .title {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h1 {
-    width: 100%;
-    font-size: 64px;
-    text-align: center;
-    color: #f29f05;
-    text-shadow: 3px 3px 1px #3fa646;
-    margin: auto 0;
-  }
-  /* 画像に関するcss */
-  .header .image {
-    width: 50%;
-    min-width: 280px;
-    margin: auto;
-    padding: 5%;
-  }
-  .image img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0px 1px 8px #fff;
-  }
-  h2 {
-    font-size: 36px;
-  }
   .food h2 {
     font-size: 22px;
   }
