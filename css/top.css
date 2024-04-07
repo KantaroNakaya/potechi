@@ -217,6 +217,7 @@ body.appear #container {
   display: flex;
   background-color: rgba(163, 96, 191, 0.1);
   padding: 8px 0;
+  cursor: not-allowed;
 }
 .sns-icon {
   width: 33.3%;
