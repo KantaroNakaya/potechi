@@ -284,22 +284,23 @@ body.appear #container {
   padding: 3% 0;
 }
 
-.btn {
-  display: inline-block;
+.tocontact {
   padding: 0.8em 3em;
   background-color: #3fa646;
   box-shadow: 0 5px 0 rgba(63, 166, 70, 0.5);
-  border-radius: 8px;
   color: #f29f05;
   text-shadow: 3px 3px 3px rgba(163, 96, 191, 0.5);
   cursor: pointer;
-  text-decoration: none;
-  transition: all 0.3s;
   font-size: 32px;
 }
-.btn:hover {
-  box-shadow: none;
-  transform: translateY(5px);
+.share-btn {
+  display: inline-block;
+  width: auto;
+  padding: 1em 2em;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #1da1f2;
+  box-shadow: 0 5px 0 rgba(29,161,2420, 0.5);
 }
 .copyright p {
   font-size: 8px;
@@ -317,7 +318,7 @@ body.appear #container {
     line-height: 48px;
     padding: 24px 0;
   }
-  .btn {
+  .tocontact {
     font-size: 24px;
   }
 }
@@ -332,7 +333,7 @@ body.appear #container {
     line-height: 36px;
     padding: 18px 0;
   }
-  .btn {
+  .tocontact {
     font-size: 18px;
   }
   .sns-box {
@@ -350,7 +351,7 @@ body.appear #container {
     line-height: 24px;
     padding: 12px 0;
   }
-  .btn {
+  .tocontact {
     font-size: 14px;
   }
 }
